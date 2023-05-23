@@ -1,12 +1,12 @@
 # Yolov5 for Smoke Detection
-Smoke detection task aims to identify fire or flame in a video and put a bounding box around it. This repo includes a demo on how to build a smoke detection detector using YOLOv5. 
+Smoke detection task aims to identify smoke in a video and put a bounding box around it. This repo includes a demo on how to build a smoke detection detector using YOLOv5. 
 
 #### Install
 Clone this repo and use the following script to install [YOLOv5](https://github.com/ultralytics/yolov5). 
 ```
 # Clone
 git clone https://github.com/eyalofekDB/TrainYolo5SmokeDetector
-cd Yolov5-Fire-Detection
+cd TrainYolo5SmokeDetector
 
 # Install yolov5
 git clone https://github.com/ultralytics/yolov5  
@@ -40,7 +40,7 @@ python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.2 -
 ```
 
 ## Reference
-I borrowed and modified [YOLOv5-Custom-Training.ipynb](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) script for training YOLOv5 model on the fire dataset. For more information on training YOLOv5, please refer to its homepage.
+I borrowed and modified [YOLOv5-Custom-Training.ipynb](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) script for training YOLOv5 model on the smoke dataset. For more information on training YOLOv5, please refer to its homepage.
 * https://github.com/robmarkcole/fire-detection-from-images
 * https://github.com/ultralytics/yolov5
 * https://github.com/AlexeyAB/darknet
