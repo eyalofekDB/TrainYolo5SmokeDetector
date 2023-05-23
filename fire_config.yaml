@@ -1,0 +1,11 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets  # dataset root dir
+train: 
+    - Smoke/train/images  # train images
+val: 
+     - Smoke/valid/images
+test:  # test images (optional)
+
+names:
+  1: fire
+  2: smoke

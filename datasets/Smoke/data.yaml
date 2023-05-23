@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['2', 'smoke']
+
+roboflow:
+  workspace: dblanket-twfkw
+  project: smoke-jw3sz
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/dblanket-twfkw/smoke-jw3sz/1
