@@ -5,7 +5,7 @@ Smoke detection task aims to identify fire or flame in a video and put a boundin
 Clone this repo and use the following script to install [YOLOv5](https://github.com/ultralytics/yolov5). 
 ```
 # Clone
-git clone https://github.com/spacewalk01/Yolov5-Fire-Detection
+git clone https://github.com/eyalofekDB/TrainYolo5SmokeDetector
 cd Yolov5-Fire-Detection
 
 # Install yolov5
