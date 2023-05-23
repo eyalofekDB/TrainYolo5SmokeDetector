@@ -7,5 +7,5 @@ val:
 test:  # test images (optional)
 
 names:
-  1: fff
+  1: ffff
   2: smoke
